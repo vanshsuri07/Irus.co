@@ -17,9 +17,9 @@
 
 ## 📸 Demo
 
-[🔗 Live Demo]((https://irus-co.vercel.app/))
+[🔗 Live Demo]([https://irus-co.vercel.app/])
 
-![Irus 3D Customizer Screenshot](screenshot.png) 
+
 
 ---
 
@@ -39,13 +39,21 @@
 
 Irus/
 ├── client/ # Frontend with 3D viewer
+
 │ ├── public/
+
 │ └── src/
+
 │ ├── components/
+
 │ ├── assets/
+
 │ └── App.js
+
 ├── server/ # API for handling uploads or AI generation (optional)
+
 │ └── server.js
+
 └── README.md
 
 2. Install Dependencies
@@ -65,13 +73,21 @@ npm install
 🤝 Contributing
 
 Contributions welcome! Feel free to open issues or submit pull requests for:
+
 UI improvements
+
 Performance optimizations
+
 New features (e.g., save/share designs)
+
 
 🙌 Acknowledgements
 
+
 Three.js
+
 PMND React-Three-Fiber (if used)
+
 Open source 3D models & textures
+
 
