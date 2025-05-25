@@ -17,7 +17,8 @@
 
 ## 📸 Demo
 
-[🔗 Live Demo]([https://irus-co.vercel.app/])
+[🔗 Live Demo]
+https://irus-co.vercel.app/
 
 
 
