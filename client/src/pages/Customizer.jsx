@@ -1,7 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+// eslint-disable-next-line no-unused-vars
 import { AnimatePresence, motion } from "framer-motion";
 import { useSnapshot } from "valtio";
+
 import state from "../store";
+
 import { EditorTabs, FilterTabs, DecalTypes } from "../config/constants";
 import { fadeAnimation, slideAnimation } from "../config/motion";
 import {
@@ -11,6 +14,7 @@ import {
   FilePicker,
   Tab,
 } from "../components";
+import { reader } from "../config/helpers";
 
 const Customizer = () => {
   const snap = useSnapshot(state);
